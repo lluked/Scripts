@@ -15,11 +15,11 @@ apt-get install \
         libssl-dev \
         nodejs \
         npm \
-        openconnect && \
+        openconnect \
         python3 \
         python3-pip \
         python3-virtualenv \
-        snapd \
+        snapd && \
 #
 # Install snap packages
 snap install atom --classic && \
